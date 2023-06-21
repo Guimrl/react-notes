@@ -1,3 +1,4 @@
+import { ListaDeNotas } from "./components/ListaDeNotas";
 
 function App() {
   return (
@@ -7,16 +8,7 @@ function App() {
         <textarea placeholder="Escreva sua nota..." />
         <button>Adicionar</button>
       </form>
-      <ul>
-        <li>
-          <section>
-            <header>
-              <h3>Título</h3>
-            </header>
-            <p>Escreva sua nota</p>
-          </section>
-        </li>
-      </ul>
+      <ListaDeNotas/>
     </section>
   );
 }
