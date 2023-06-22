@@ -1,0 +1,11 @@
+.counteudo {
+    display: flex;
+}
+
+:root {
+    --primary: #58A4B0;
+    --secundary: #373F51;
+    --secundary-active: #CCCCCC;
+    --background: #FFFFFF;
+    --background-datails: #ECECEC;
+}
