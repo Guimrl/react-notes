@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import "./style.css";
 
 class FormularioCadastro extends Component {
     render() {
         return (
-            <form className="form-cadastro">
+            <form className="form-cadastro ">
                 <input
                     type="text"
                     placeholder="Título"
@@ -15,7 +16,7 @@ class FormularioCadastro extends Component {
                     className="form-cadastro_input"
                 />
                 <button className="form-cadastro_input form-cadastro_submit">
-                    Adicionar
+                    Criar Nota
                 </button>
             </form>
         );
